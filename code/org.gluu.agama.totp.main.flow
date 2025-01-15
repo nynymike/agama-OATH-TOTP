@@ -22,7 +22,7 @@ qrCodeAlg = conf.qrCodeAlg
 qrCodeLabel = conf.qrCodeLabel
 qrCodeKeyLength = conf.qrCodeKeyLength
 qrCodeIssuer = conf.issuer
-// if no enrollment exist
+// if no enrollment exists
 When userTOTPSecretKey is null
      // Trigger enrollment flow, Load enroll.ftlh page, ask to scan code, enter code and check OTP is valid or not
      checkOTPValid | E = Trigger org.gluu.agama.totp.enroll userId qrCodeAlg qrCodeKeyLength qrCodeLabel qrCodeIssuer
@@ -36,8 +36,8 @@ When userTOTPSecretKey is not null
      Log "@debug checkOTPValid check otp " checkOTPValid E
 When checkOTPValid.success is true
      // finish with success userId
-     it_cinem = {success:true, data: { userId: userId }}
-     Finish it_cinem
+     it_zgzxm = {success:true, data: { userId: userId }}
+     Finish it_zgzxm
 // Login Failed
-it_togug = {success:false, error: "login failed"}
-Finish it_togug
+it_zoikp = {success:false, error: "login failed"}
+Finish it_zoikp
