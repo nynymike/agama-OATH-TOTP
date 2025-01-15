@@ -32,7 +32,8 @@
 			"measured": {
 				"width": 170,
 				"height": 124
-			}
+			},
+			"selected": false
 		},
 		{
 			"data": {
@@ -190,7 +191,8 @@
 			"measured": {
 				"width": 170,
 				"height": 124
-			}
+			},
+			"selected": false
 		},
 		{
 			"data": {
@@ -316,7 +318,7 @@
 			"data": {
 				"agamaData": {
 					"hasComment": true,
-					"comment": "if no enrollment exist",
+					"comment": "if no enrollment exists",
 					"conditions": [
 						{
 							"variable": "userTOTPSecretKey",
@@ -342,8 +344,9 @@
 			},
 			"measured": {
 				"width": 110,
-				"height": 59
-			}
+				"height": 60
+			},
+			"selected": true
 		},
 		{
 			"data": {
@@ -444,8 +447,9 @@
 			},
 			"measured": {
 				"width": 110,
-				"height": 59
-			}
+				"height": 60
+			},
+			"selected": false
 		},
 		{
 			"data": {
@@ -477,7 +481,7 @@
 			},
 			"measured": {
 				"width": 110,
-				"height": 59
+				"height": 60
 			}
 		},
 		{
@@ -934,8 +938,8 @@
 		}
 	],
 	"viewport": {
-		"x": 0,
-		"y": 0,
+		"x": -1727,
+		"y": 150,
 		"zoom": 1
 	}
 }
